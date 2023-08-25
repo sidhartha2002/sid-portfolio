@@ -29,11 +29,11 @@ const Banner = () => {
             // Same substring at the start will only be typed out once, initially
             "A Web Developer",
             1000, // wait 1s before replacing "Mice" with "Hamsters"
-            "A Dynamic Innovator",
+            "A Creative Developer",
             1000,
             "A Dedicated Learner",
             1000,
-            "A Creative artist",
+            "A Jamstack Developer",
             1000,
           ]}
           wrapper="span"
