@@ -8,6 +8,8 @@ import profileImgRound from "./my-profile-rounded.png";
 import project2 from "./project-2.png";
 import project3 from "./project-3.png";
 import project5 from "./project-5.png";
+import projectIssueTracker from "./project-issue-tracker.png";
+import projectFoodDashboard from "./project-food-dashboard.png"
 
 
-export { logo, profileImg, profileImgRound, foodWeb1, foodWeb2, foodWeb3, Ecommerce, project2, project3, project5}
+export { logo, profileImg, profileImgRound, foodWeb1, foodWeb2, foodWeb3, Ecommerce, project2, project3, project5, projectIssueTracker, projectFoodDashboard}

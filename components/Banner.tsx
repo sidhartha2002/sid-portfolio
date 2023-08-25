@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
+import Projects from "./Projects";
 
 const Banner = () => {
   return (
@@ -57,14 +59,16 @@ const Banner = () => {
         combine stunning design with seamless functionality. Eager to turn ideas
         into engaging online experiences.
       </motion.p>
-      <motion.button
-        initial={{ y: 10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.9 }}
-        className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
-      >
-        Check out my Project!
-      </motion.button>
+      <Link href={"/#projects"}>
+        <motion.button
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.9 }}
+          className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+        >
+          Check out my Project!
+        </motion.button>
+      </Link>
     </section>
   );
 };
