@@ -17,28 +17,22 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Project-1"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s."
-          listItem={["NextJs, Tailwind, Netlify"]}
-          link="#"
+          title="User Dashboard"
+          description="Created a website using React Hooks for efficient state management, complete with dynamic routes and component props. Leveraged various React libraries for enhanced functionality. "
+          listItem={["NextJs, Tailwind, React-libraries"]}
+          link="https://sidhartha2002-nextjs-user-dashboard.netlify.app/"
         />
         <ArchiveCard
-          title="Project-2"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s."
-          listItem={["NextJs, Tailwind, Netlify"]}
-          link="#"
+          title="Investa"
+          description="This website seamlessly integrating routes, sleek design, captivating animations, and optimal accessibility for a dynamic investment platform."
+          listItem={["NextJs, Tailwind, HeadlessUI, Framer-Motion"]}
+          link="https://investa-web.vercel.app/"
         />
         <ArchiveCard
-          title="Project-3"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s."
-          listItem={["NextJs, Tailwind, Netlify"]}
-          link="#"
+          title="InstaMart"
+          description="Developed a dynamic website using JavaScript scripting, React props for streamlined data flow, and integrated multiple React libraries for extended capabilities."
+          listItem={["NextJs, Tailwind, Typescript, React-libraries"]}
+          link="https://instamart-webstore.vercel.app/"
         />
 
         {showMore && (
@@ -50,12 +44,10 @@ const Archive = () => {
               transition={{ delay: 0.1 }}
             >
               <ArchiveCard
-                title="Project-4"
-                description="Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s."
+                title="Parallax Webpage"
+                description="Designed a sleek website using HTML, CSS, and JavaScript, featuring eye-catching animations for a dynamic user experience."
                 listItem={["NextJs, Tailwind, Netlify"]}
-                link="#"
+                link="https://famous-sunshine-6cd5fe.netlify.app/"
               />
             </motion.div>
             {/* project-5 */}
@@ -65,11 +57,9 @@ const Archive = () => {
               transition={{ delay: 0.2 }}
             >
               <ArchiveCard
-                title="Project-5"
-                description="Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s."
-                listItem={["NextJs, Tailwind, Netlify"]}
+                title="Leeds Tracker"
+                description="It get track of all your valuable URL(S) in one place which you want to explore later in future by simply adding it in your chrome browser extension."
+                listItem={["NextJs, Tailwind, "]}
                 link="#"
               />
             </motion.div>
@@ -80,12 +70,10 @@ const Archive = () => {
               transition={{ delay: 0.3 }}
             >
               <ArchiveCard
-                title="Project-6"
-                description="Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s."
-                listItem={["NextJs, Tailwind, Netlify"]}
-                link="#"
+                title="EcoTours"
+                description="Crafted an engaging website using HTML and leveraged innovative CSS pseudo-elements for captivating animations and visual effects."
+                listItem={["CSS, HTML, Pseudo-elements"]}
+                link="https://voluble-monstera-bedd70.netlify.app/"
               />
             </motion.div>
           </>
