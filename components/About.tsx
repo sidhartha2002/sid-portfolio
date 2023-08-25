@@ -14,13 +14,13 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            I &apos; m a passionate CS student at SOA University, specializing
-            in crafting exceptional web experiences. My focus lies in UI/UX
-            design and front-end development, where I harness the power of code
-            to bring designs to life. I excel in front-end frameworks, and my
+            I am a passionate CS student at SOA University, specializing in
+            crafting exceptional web experiences. My focus lies in UI/UX design
+            and front-end development, where I harness the power of code to
+            bring designs to life. I excel in front-end frameworks, and my
             strength lies in creating seamless user interfaces that are both
             visually appealing and highly functional. With a strong foundation
-            in coding and an eye for detail, I &apos; m dedicated to delivering
+            in coding and an eye for detail, I am dedicated to delivering
             top-notch websites that leave a lasting impact.
           </p>
           <p>
