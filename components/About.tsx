@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import { CgEditBlackPoint } from "react-icons/cg";
-import { profileImg, profileImgRound } from "@/public/assets";
+import { profileImg } from "@/public/assets";
 import Image from "next/image";
 
 const About = () => {
