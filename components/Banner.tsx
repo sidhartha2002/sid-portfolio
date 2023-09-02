@@ -30,12 +30,12 @@ const Banner = () => {
           sequence={[
             // Same substring at the start will only be typed out once, initially
             "A Web Developer",
-            1000, // wait 1s before replacing "Mice" with "Hamsters"
-            "A Creative Developer",
             1000,
             "A Dedicated Learner",
             1000,
             "A Jamstack Developer",
+            1000,
+            "A Creative Artist",
             1000,
           ]}
           wrapper="span"

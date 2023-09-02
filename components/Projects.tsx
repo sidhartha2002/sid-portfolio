@@ -2,11 +2,9 @@ import React from "react";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 import {
-  foodWeb1,
-  foodWeb2,
-  foodWeb3,
+  Ecommerce,
   projectIssueTracker,
-  projectFoodDashboard,
+  nextjsDashboard,
 } from "@/public/assets";
 import { RiGithubLine } from "react-icons/ri";
 import { RxOpenInNewWindow } from "react-icons/rx";
@@ -30,7 +28,7 @@ const Projects = () => {
               <div>
                 <Image
                   className="w-full h-full object-contain"
-                  src={foodWeb1}
+                  src={Ecommerce}
                   alt="foodWeb1"
                 />
               </div>
@@ -39,9 +37,7 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">
-                Serverless e-Commerce App with Admin App
-              </h3>
+              <h3 className="text-2xl font-bold">Serverless e-Commerce App</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md text-center xl:text-right">
                 This project is a serverless ecommerce app crafted with Next.js,
                 Tailwind CSS, PlanetScale for the database, Clerk for
@@ -66,7 +62,7 @@ const Projects = () => {
                   <RiGithubLine />
                 </a>
                 <a
-                  href="https://ecommerce-app-eight-gamma.vercel.app/"
+                  href="https://ecommerce-app-etwy.vercel.app/"
                   target="_blank"
                   className="hover:text-textGreen duration-300 "
                 >
@@ -80,7 +76,7 @@ const Projects = () => {
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a
-              href="https://github.com/sidhartha2002/Issue-Tracker"
+              href="https://issue-tracker-xi.vercel.app/"
               target="_blank"
               className="w-full xl:w-1/2 h-auto relative group"
             >
@@ -119,7 +115,7 @@ const Projects = () => {
                   <RiGithubLine />
                 </a>
                 <a
-                  href="https://github.com/sidhartha2002/Issue-Tracker"
+                  href="https://issue-tracker-xi.vercel.app/"
                   target="_blank"
                   className="hover:text-textGreen duration-300 "
                 >
@@ -140,7 +136,7 @@ const Projects = () => {
               <div>
                 <Image
                   className="w-full h-full object-contain"
-                  src={projectFoodDashboard}
+                  src={nextjsDashboard}
                   alt="foodWeb1"
                 />
               </div>
@@ -162,17 +158,18 @@ const Projects = () => {
                 <li>NextJS 13</li>
                 <li>Typescript</li>
                 <li>Tailwind</li>
+                <li>ChartJS</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
-                  href="https://github.com/sidhartha2002/ecommerce-app"
+                  href="https://github.com/sidhartha2002/NextJS-User-Dashboard"
                   target="_blank"
                   className="hover:text-textGreen duration-300 "
                 >
                   <RiGithubLine />
                 </a>
                 <a
-                  href="https://ecommerce-app-eight-gamma.vercel.app/"
+                  href="https://sidhartha2002-nextjs-user-dashboard.netlify.app/"
                   target="_blank"
                   className="hover:text-textGreen duration-300 "
                 >
