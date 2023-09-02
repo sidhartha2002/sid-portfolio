@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaGithubSquare,
-  FaLinkedin,
-  FaGithub,
-  FaFacebook,
-} from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGeeksforgeeks } from "react-icons/si";
 
 const LeftSide = () => {
@@ -24,11 +19,6 @@ const LeftSide = () => {
         <a href="https://auth.geeksforgeeks.org/user/sidhartha2002">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SiGeeksforgeeks />
-          </span>
-        </a>
-        <a href="#">
-          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <FaFacebook />
           </span>
         </a>
       </div>
