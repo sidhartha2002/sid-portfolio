@@ -15,3 +15,5 @@
 - 🏆 Passionate about solving problems
 - 🌐 Check out my portfolio website : ➡️[my-porfolio](https://sid-portfolio-taupe.vercel.app/)
 - 📫 Reach out to me at : ➡️ [my-gmail](https://mail.google.com/mail/u/0/#inbox)
+- 📱Connect with me at : ➡️ [my-linkedIn](https://www.linkedin.com/in/sidhartha2002)
+
