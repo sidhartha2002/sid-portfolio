@@ -1,5 +1,5 @@
 import logo from "./sid-logo.png";
-import profileImg from "./my-profile.png";
+import profileImg from "./sid-half-pic.png";
 import foodWeb2 from "./food-web-2.png";
 import foodWeb3 from "./food-web-3.png";
 import Ecommerce from "./e-commerce.png";
