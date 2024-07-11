@@ -16,7 +16,7 @@ const CyberSecurity = () => {
         <span className="text-textGreen tracking-wide">@Trainee</span>
       </h3>
       <p className="text-sm font-medium text-textDark mt-1">
-        July 2023 - Present
+        July 2023 - August 2023
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
